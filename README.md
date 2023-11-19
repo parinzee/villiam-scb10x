@@ -15,6 +15,7 @@ Welcome to the official GitHub repository of Villiam, a groundbreaking project t
 - [Usage](#usage)
 - [Model and Datasets](#model-and-datasets)
 - [License](#license)
+- [Evaluation](#evaluation)
 
 ---
 
@@ -65,6 +66,44 @@ cd villiam-model
 - **Datasets**:
     - [Villiam QA Dataset](https://huggingface.co/datasets/parinzee/claq-qa-thai-dataset)
     - [Villiam Image Instruction-Following Dataset Finetune](https://huggingface.co/datasets/senmeetechin/LLaVA-TH)
+ 
+## Evaluation
+[↑ Back to top](#table-of-contents)
+- **Villiam Model using Evaluate with Exactly Match**
+Our GPT-assisted evaluation pipeline for multimodal modeling is provided for a comprehensive understanding of the capabilities of vision-language models.  Please see  paper for more details.
+
+1. Generate LLaVA responses
+
+```Shell
+python model_vqa.py \
+    --model-path ./checkpoints/LLaVA-13B-v0 \
+    --question-file \
+    playground/data/coco2014_val_qa_eval/qa90_questions.jsonl \
+    --image-folder \
+    /path/to/coco2014_val \
+    --answers-file \
+    /path/to/answer-file-our.jsonl
+```
+
+2. Evaluate the generated responses.  In our case, the response was generated with Thai language by text-only GPT-4 (0314), with the context captions/boxes provided.
+
+```Shell
+OPENAI_API_KEY="sk-***********************************" python llava/eval/eval_gpt_review_visual.py \
+    --question playground/data/coco2014_val_qa_eval/qa90_questions.jsonl \
+    --context llava/eval/table/caps_boxes_coco2014_val_80.jsonl \
+    --answer-list \
+    /path/to/answer-file-ref.jsonl \
+    /path/to/answer-file-our.jsonl \
+    --rule llava/eval/table/rule.json \
+    --output /path/to/review.json
+```
+
+3. Summarize the evaluation results
+
+```Shell
+python summarize_gpt_review.py
+```
+
 
 ## License
 [↑ Back to top](#table-of-contents)

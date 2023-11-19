@@ -1,0 +1,3 @@
+[submodule "cross-lingual-data-augmentation-for-thai-qa"]
+	path = cross-lingual-data-augmentation-for-thai-qa
+	url = git@github.com:parinzee/cross-lingual-data-augmentation-for-thai-qa.git

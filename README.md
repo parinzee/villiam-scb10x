@@ -13,7 +13,6 @@ Welcome to the official GitHub repository of Villiam, a groundbreaking project t
 - [Contributing](#contributing)
 - [License](#license)
 - [Citation](#citation)
-- [Contact](#contact)
 
 ---
 
@@ -87,12 +86,3 @@ If you use Villiam in your research, please cite it using this format.
   year={2023},
 }
 ```
-
-## Contact
-[↑ Back to top](#table-of-contents)
-
-For questions, feedback, or discussions about Villiam, please reach out to us at [contact@email.com](mailto:contact@email.com).
-
----
-
-Feel free to customize and expand each section as needed. The placeholders for links and specific instructions can be updated when the actual content is ready. This README format provides a clear and comprehensive guide for users and contributors to understand and engage with your project.

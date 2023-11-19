@@ -1,5 +1,9 @@
 # Villiam: Vision-Integrated Large Language Adaptive Model
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/parinzee/villiam-scb10x/main/logo.png" alt="Villiam Logo">
+</div>
+
 Welcome to the official GitHub repository of Villiam, a groundbreaking project that aims to revolutionize the field of Large Language Models (LLMs) with a focus on enhancing language technology for low-resource languages, particularly Thai. Villiam integrates advanced data augmentation techniques with robust quality control measures and introduces vision capabilities to LLMs, thereby democratizing access to state-of-the-art language technologies.
 
 ---
@@ -10,9 +14,7 @@ Welcome to the official GitHub repository of Villiam, a groundbreaking project t
 - [Installation](#installation)
 - [Usage](#usage)
 - [Model and Datasets](#model-and-datasets)
-- [Contributing](#contributing)
 - [License](#license)
-- [Citation](#citation)
 
 ---
 
@@ -73,16 +75,3 @@ We welcome contributions from the community. Please read our [contributing guide
 [↑ Back to top](#table-of-contents)
 
 Villiam is released under [MIT License](LICENSE). Please review the license terms before using or contributing to the project.
-
-## Citation
-[↑ Back to top](#table-of-contents)
-
-If you use Villiam in your research, please cite it using this format.
-
-```bibtex
-@article{villiam2023,
-  title={Villiam: Vision-Integrated Large Language Adaptive Model},
-  journal={GitHub Repository},
-  year={2023},
-}
-```

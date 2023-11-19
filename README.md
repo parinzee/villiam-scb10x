@@ -28,8 +28,8 @@ Villiam is designed to address the significant disparity in language technology 
 
 - **Cross-Lingual Data Augmentation**: Expands dataset size significantly using advanced translation techniques and synthetic data generation. This builds on our previous work on [CLAQ](https://github.com/parinzee/cross-lingual-data-augmentation-for-thai-qa/tree/807e40bf80b38b5759d4e29dbd1f6ae004b6d250)
 - **Quality Control Measures**: Utilizes clustering and semantic embeddings to ensure data diversity and reduce noise.
-- **Vision-Integrated Capabilities**: Enables the model to perform tasks that involve understanding and conversing about image content.
-- **Scalable and Adaptable Architecture**: Designed for ease of adaptation to other low-resource languages.
+- **Vision-Integrated Capabilities**: Enables the model to perform tasks that involve understanding and conversing about image content. This is built upon [OpenThaiGPT](https://openthaigpt.aieat.or.th/) and [LLaVa](https://github.com/haotian-liu/LLaVA)
+- **Scalable and Adaptable Architecture**: Designed for ease of adaptation to other low-resource languages. Although our model here is in Thai, we can simply use [NLLB](https://ai.meta.com/research/no-language-left-behind/) or Google Translate to translate the data to other languages.
 
 ## Usage
 [↑ Back to top](#table-of-contents)

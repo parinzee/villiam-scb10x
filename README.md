@@ -26,7 +26,7 @@ Villiam is designed to address the significant disparity in language technology 
 ## Features
 [↑ Back to top](#table-of-contents)
 
-- **Cross-Lingual Data Augmentation**: Expands dataset size significantly using advanced translation techniques and synthetic data generation.
+- **Cross-Lingual Data Augmentation**: Expands dataset size significantly using advanced translation techniques and synthetic data generation. This builds on our previous work on [CLAQ](https://github.com/parinzee/cross-lingual-data-augmentation-for-thai-qa/tree/807e40bf80b38b5759d4e29dbd1f6ae004b6d250)
 - **Quality Control Measures**: Utilizes clustering and semantic embeddings to ensure data diversity and reduce noise.
 - **Vision-Integrated Capabilities**: Enables the model to perform tasks that involve understanding and conversing about image content.
 - **Scalable and Adaptable Architecture**: Designed for ease of adaptation to other low-resource languages.
@@ -65,11 +65,6 @@ cd villiam-model
 - **Datasets**:
     - [Villiam QA Dataset](https://huggingface.co/datasets/parinzee/claq-qa-thai-dataset)
     - [Villiam Image Instruction-Following Dataset Finetune](https://huggingface.co/datasets/senmeetechin/LLaVA-TH)
-
-## Contributing
-[↑ Back to top](#table-of-contents)
-
-We welcome contributions from the community. Please read our [contributing guidelines](CONTRIBUTING.md) before submitting your contributions.
 
 ## License
 [↑ Back to top](#table-of-contents)

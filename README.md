@@ -46,7 +46,16 @@ mamba env create -f environment.yml
 mamba activate villiam
 
 # Run the training script
+cd villiam-model
 
+# Download our data
+...
+
+# Run the pretraining script
+./scripts/pretrain.sh
+
+# Run the finetuning script
+./scripts/finetune.sh
 ```
 
 ## Model and Datasets

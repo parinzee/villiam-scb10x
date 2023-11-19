@@ -34,7 +34,7 @@ Villiam is designed to address the significant disparity in language technology 
 
 ```bash
 # Clone the repository
-git clone https://github.com/parinzee/villiam-scb10x.git --recurse-submodules
+git clone https://github.com/parinzee/villiam-scb10x.git --recurse-submodules --remote-submodules
 
 # Install the required packages
 mamba env create -f environment.yml

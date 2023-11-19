@@ -1,6 +1,4 @@
-# README for Villiam GitHub Repository
-
-## Villiam: Vision-Integrated Large Language Adaptive Model
+# Villiam: Vision-Integrated Large Language Adaptive Model
 
 Welcome to the official GitHub repository of Villiam, a groundbreaking project that aims to revolutionize the field of Large Language Models (LLMs) with a focus on enhancing language technology for low-resource languages, particularly Thai. Villiam integrates advanced data augmentation techniques with robust quality control measures and introduces vision capabilities to LLMs, thereby democratizing access to state-of-the-art language technologies.
 
